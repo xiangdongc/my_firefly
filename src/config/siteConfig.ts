@@ -26,13 +26,13 @@ const pages = resolvePageToggles({
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
-	bilibili: true,
+	bilibili: false,
 	// 番组计划页面开关
-	bangumi: true,
+	bangumi: false,
 	// VNDB页面开关
-	vndb: true,
+	vndb: false,
 	// MyAnimeList页面开关
-	mal: true,
+	mal: false,
 
 	// ── 关于 (About) ──────────────────────────────────
 
@@ -81,9 +81,9 @@ export const siteConfig: SiteConfig = {
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: true,
+		border: false,
 		// 是否让卡片风格跟随主题色相
-		followTheme: true,
+		followTheme: false,
 	},
 
 	// Favicon 配置
@@ -132,7 +132,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2026-09-09",
+	siteStartDate: "2025-01-01",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
